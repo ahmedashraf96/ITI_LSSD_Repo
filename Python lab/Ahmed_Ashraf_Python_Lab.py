@@ -211,12 +211,206 @@ def task8_func():
 
                 #Appending the number in the even numbers list
                 even_list.append(num)
+            
+            else:
+                #Do nothing
+                pass
     
         #Printing the even numbers list
         print("The even numbers list is: {}".format(even_list))
 
     #Calling sum function
     is_even_num_func(my_list)    
+
+###############################################################################################################################################
+
+#Ninth task
+def task9_func():
+    
+    #Creating a class
+    class string_class:
+                
+        #Class init function
+        def __init__(self):
+
+            #Local variable carries the entered string
+            self.entered_string = ""
+
+        #A function used to get a string from user
+        def get_string(self):
+
+            #Get the entered string
+            self.entered_string = input("Please, enter a string: ")
+
+        #A function used to print a string entered from user
+        def print_string(self):
+
+            #Print the entered string in upper case
+            print(self.entered_string.upper())
+
+    #Making an object from string class
+    user_string = string_class()
+
+    #Getting a string from user
+    user_string.get_string()
+
+    #Printing the string that user entered
+    user_string.print_string()
+
+###############################################################################################################################################
+
+#Tenth task
+def task10_func():
+
+    #Creating a class
+    class vehicle:
+
+        #Class init function
+        def __init__(self, distance, duration):
+
+            #Local variable used to get the average speed
+            self.avg_speed = 0
+
+            #Local variable used to get the distance
+            self.distance = distance
+
+            #Local variable used to get the duration
+            self.duration = duration
+
+        #A function used to calculate the average speed        
+        def calculate_avg_speed(self):
+
+            #Getting the average speed
+            self.avg_speed = self.distance / self.duration
+
+            #Printing the calculated average speed
+            print("The averge speed in KM/H is: {}".format(self.avg_speed))
+    
+    #Creating a car object made a distance of 200KM in 5H
+    car = vehicle(200, 5)
+
+    #Calculating average speed
+    car.calculate_avg_speed()
+
+###############################################################################################################################################
+
+#Fourteenth task
+def task14_func():
+
+    #Local variable used to carry user entered number in string type
+    num_str = ""
+
+    #Local variable used to carry user entered number in integer type
+    num_integer = 0
+
+    #Local variable used to hold maximum entered number
+    max = 0
+
+    #Local variable used to hold minimum entered number (initialized with high number)
+    min = 10000
+
+    #Looping over entered user numbers
+    while(num_str != "done"):
+        
+        #Getting the entered string
+        num_str = input("Enter a number: ")
+
+        #Trying to cast the entered string
+        try:
+            #Casting the entered string to integer
+            num_integer = int(num_str)
+
+            #Cecking if the maximum number is smaller than the entered number
+            if(max < num_integer):
+                
+                #Set the max variable to new number 
+                max = num_integer
+            else:
+
+                #Do nothing
+                pass
+
+            #Cecking if the minimum number is bigger than the entered number
+            if(min > num_integer):
+                
+                #Set the min variable to new number
+                min = num_integer
+            else:
+
+                #Do nothing
+                pass
+
+        except:
+
+            #Checking if an exception is raised
+            if(num_str == "done"):
+                
+                #Printing the maximum and minimum numbers
+                print("Maximum number is: {}".format(max))
+                print("Minimum number is: {}".format(min))
+
+            else:
+
+                #Printing invalid input
+                print("Invalid input")
+
+###############################################################################################################################################
+
+#Fifteenth task
+def task15_func():
+
+    #Opening the entered user file and read it
+    file_name = open(input("Enter file name: "), 'r')
+
+    #Read lines of the file and save them in a list
+    lines = file_name.readlines()
+
+    #Looping over list elements
+    for line in lines:
+
+        #Stripping whitespaces from each line
+        line = line.strip()
+
+        #Printing each line in upper case
+        print(line.upper())
+    
+    #closing the file
+    file_name.close()
+
+###############################################################################################################################################
+
+#Sixteenth task
+def task16_func():
+
+    #Opening user file and reading its contents
+    user_file = open("mbox-short.txt", 'r')
+
+    #Local variable used to count the number of lines starting with "From"
+    counter = 0
+
+    #looping over file lines
+    for i in range(1910):
+
+        #Reading the file line by line
+        line = user_file.readline()
+
+        #Splitting the line string twice at each " "
+        line = line.split(" ", 2)
+        
+        #checking if the first word in line is "From"
+        if(line[0] == "From"):
+
+            #Increase the lines counter by 1
+            counter += 1
+
+            #Printing the email in the "From" line
+            print(line[1])
+    
+    #Printing the number of lines starting with "From"
+    print("There were {} lines in the file with \"From\" as the first word".format(counter))
+
+    #Close the file
+    user_file.close()
 
 ###############################################################################################################################################
 ###############################################################################################################################################
@@ -255,3 +449,27 @@ elif task_num == 7:
 #Call the task number 8
 elif task_num == 8:
     task8_func()
+
+#Call the task number 9
+elif task_num == 9:
+    task9_func()
+
+#Call the task number 10
+elif task_num == 10:
+    task10_func()
+
+#Call the task number 14
+elif task_num == 14:
+    task14_func()
+
+#Call the task number 15
+elif task_num == 15:
+    task15_func()
+
+#Call the task number 16
+elif task_num == 16:
+    task16_func()
+
+#If any number else entered  
+else:
+    print("Invalid task number")
