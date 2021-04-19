@@ -1,0 +1,90 @@
+1. 
+	a. cat command is used create a file with any extension, opens it all in the cmd and .
+	ex: cat >main.c -> Create a c source file and edit it.
+	ex: cat main.c  -> Open an existing file called "main.c" and edit it.
+	
+	b. more command is used to open a file only but in a way that fits the cmd screen.
+
+2.
+	cd /home
+	pwd
+
+3.
+	sudo mkdir /home/SAMPLE
+	
+4.
+	cd /home/SAMPLE
+	sudo mkdir HELLO
+
+5. 
+	sudo mkdir /home/Hello
+	
+6. 
+	sudo rm -r /home/Hello (If it's not empty)
+	sudo rmdir /home/hello (If it's empty)
+
+7.
+	sudo mkdir -p /home/SAMPLE/HELLO
+
+8.
+	touch .hiddenFile.txt
+
+9.
+	rmdir: is used to remove empty directories.
+	rm: is used to remove files and directories.
+
+10.
+	cd /home
+	sudo mkdir -p dir/dir1
+	cd dir/dir1
+	sudo touch file1
+	cd ..
+	sudo mkdir dir2
+	cd ..
+	sudo mkdir -p docs/WS-ITI
+
+11.
+	rmdir /home/dir/dir1
+	
+12.
+	cd /home
+	sudo rmdir -p dir/dir2
+
+13.
+	cd ~/Downloads/WS-ITI (Absolute path)
+	cd Downloads/WS-ITI   (Relative path)
+	
+14.
+	cd /etc
+	sudo cp passwd /home/my_passwd
+	cd /home
+	sudo mv my_passwd old_passwd
+
+15.
+	cd /home (First way)
+	
+	cd ../../home (Second way)
+	
+	cd /
+	cd home  (Third way)
+	
+16.
+	cd /usr/bin
+	sudo grep -i w *
+
+17.
+	head -4 /etc/passwd
+
+18.
+	tail -7 /etc/passwd
+	
+19.
+	cd /home
+	sudo touch my_code.txt
+	sudo nano my_code.txt
+	Ahmed Ashraf ITI
+	^s ^x
+	sudo grep -i "Ahmed Ashraf ITI"
+	
+	
+	
