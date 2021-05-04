@@ -1,0 +1,21 @@
+[0.291s] Invoking command in '/home/ahmed/Documents/ros2_ws/src/test_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/ahmed/Documents/ros2_ws/build/test_pkg/build install --prefix /home/ahmed/Documents/ros2_ws/install/test_pkg --record /home/ahmed/Documents/ros2_ws/build/test_pkg/install.log --single-version-externally-managed
+[0.556s] running egg_info
+[0.556s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[0.557s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[0.557s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[0.557s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[0.557s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[0.592s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.606s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.606s] running build
+[0.606s] running build_py
+[0.607s] running install
+[0.608s] running install_lib
+[0.610s] running install_data
+[0.610s] running install_egg_info
+[0.612s] removing '/home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.613s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg-0.0.0-py3.8.egg-info
+[0.614s] running install_scripts
+[0.635s] Installing publish_node=test_pkg.first_node:mainsubscribe_node script to /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/test_pkg
+[0.635s] writing list of installed files to '/home/ahmed/Documents/ros2_ws/build/test_pkg/install.log'
+[0.665s] Invoked command in '/home/ahmed/Documents/ros2_ws/src/test_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/ahmed/Documents/ros2_ws/build/test_pkg/build install --prefix /home/ahmed/Documents/ros2_ws/install/test_pkg --record /home/ahmed/Documents/ros2_ws/build/test_pkg/install.log --single-version-externally-managed

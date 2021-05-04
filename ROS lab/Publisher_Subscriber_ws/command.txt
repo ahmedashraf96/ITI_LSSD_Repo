@@ -1,0 +1,17 @@
+colcon build --packages-select <pkg_name> --symlink-install
+ros2 run <pkg> <exec> --ros-args --remap __node:=<new_name>
+
+
+
+
+ros2 service list -t
+
+ros2 interface show turtlesim/srv/Spawn
+
+ros2 service call /spawn turtlesim/srv/Spawn "x: 4.0
+y: 8.0
+theta: 0.0
+name: 'new_one'
+"
+
+

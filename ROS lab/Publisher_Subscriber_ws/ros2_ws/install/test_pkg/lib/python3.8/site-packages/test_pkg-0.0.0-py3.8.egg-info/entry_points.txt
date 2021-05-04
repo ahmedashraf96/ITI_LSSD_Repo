@@ -1,0 +1,4 @@
+[console_scripts]
+publish_node = test_pkg.first_node:main
+subscribe_node = test_pkg.second_node:main
+

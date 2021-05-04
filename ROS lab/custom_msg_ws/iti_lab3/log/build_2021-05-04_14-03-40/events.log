@@ -1,0 +1,389 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (my_msgs) JobQueued: {'identifier': 'my_msgs', 'dependencies': OrderedDict()}
+[0.000915] (my_msgs) JobStarted: {'identifier': 'my_msgs'}
+[0.017920] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'cmake'}
+[0.018487] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/src/my_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs'], 'cwd': '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmed'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '6211'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '5983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b49a2d978316deca0e1f40f76091098d'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/home/ahmed/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('JOURNAL_STREAM', '8:165866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ahmed-Computer:@/tmp/.ICE-unix/6244,unix/Ahmed-Computer:/tmp/.ICE-unix/6244'), ('INVOCATION_ID', '82418552f5384b03b5fb8a27a72f4252'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/903c56e7_eb16_4cae_ab55_5510954e334e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ahmed/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ahmed/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b49a2d978316deca0e1f40f76091098d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099578] (-) TimerEvent: {}
+[0.115716] (my_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.199720] (-) TimerEvent: {}
+[0.218993] (my_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.226200] (my_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299841] (-) TimerEvent: {}
+[0.321834] (my_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.327417] (my_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399990] (-) TimerEvent: {}
+[0.421778] (my_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.443034] (my_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.443719] (my_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.451225] (my_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500121] (-) TimerEvent: {}
+[0.564027] (my_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.565280] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600263] (-) TimerEvent: {}
+[0.694471] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700369] (-) TimerEvent: {}
+[0.720804] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.721779] (my_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.725054] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.759150] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.759551] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800480] (-) TimerEvent: {}
+[0.900826] (-) TimerEvent: {}
+[1.001186] (-) TimerEvent: {}
+[1.023331] (my_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.101354] (-) TimerEvent: {}
+[1.126040] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.130593] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.138252] (my_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.201477] (-) TimerEvent: {}
+[1.256468] (my_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.292074] (my_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.301583] (-) TimerEvent: {}
+[1.394056] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.401687] (-) TimerEvent: {}
+[1.466588] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.501812] (-) TimerEvent: {}
+[1.553457] (my_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.602236] (-) TimerEvent: {}
+[1.697505] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702321] (-) TimerEvent: {}
+[1.706970] (my_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.749788] (my_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.751714] (my_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.802445] (-) TimerEvent: {}
+[1.828189] (my_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.828780] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.828946] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.829099] (my_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.866019] (my_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.902573] (-) TimerEvent: {}
+[1.928214] (my_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.931258] (my_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.932877] (my_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.943767] (my_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.002694] (-) TimerEvent: {}
+[2.044495] (my_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.049236] (my_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs\n'}
+[2.061284] (my_msgs) CommandEnded: {'returncode': 0}
+[2.062710] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'build'}
+[2.064160] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmed'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '6211'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '5983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b49a2d978316deca0e1f40f76091098d'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/home/ahmed/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('JOURNAL_STREAM', '8:165866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ahmed-Computer:@/tmp/.ICE-unix/6244,unix/Ahmed-Computer:/tmp/.ICE-unix/6244'), ('INVOCATION_ID', '82418552f5384b03b5fb8a27a72f4252'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/903c56e7_eb16_4cae_ab55_5510954e334e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ahmed/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ahmed/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b49a2d978316deca0e1f40f76091098d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.102854] (-) TimerEvent: {}
+[2.124032] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__cpp\x1b[0m\n'}
+[2.140289] (my_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.141359] (my_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.203000] (-) TimerEvent: {}
+[2.303370] (-) TimerEvent: {}
+[2.403729] (-) TimerEvent: {}
+[2.504131] (-) TimerEvent: {}
+[2.604491] (-) TimerEvent: {}
+[2.704847] (-) TimerEvent: {}
+[2.805202] (-) TimerEvent: {}
+[2.905548] (-) TimerEvent: {}
+[3.005902] (-) TimerEvent: {}
+[3.083247] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.106346] (-) TimerEvent: {}
+[3.110161] (my_msgs) StdoutLine: {'line': b'[  5%] Built target my_msgs__cpp\n'}
+[3.135234] (my_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.135695] (my_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.171396] (my_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.171731] (my_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_msgs/msg/detail/string_and_num__functions.c.o\x1b[0m\n'}
+[3.210903] (-) TimerEvent: {}
+[3.311325] (-) TimerEvent: {}
+[3.417515] (-) TimerEvent: {}
+[3.517928] (-) TimerEvent: {}
+[3.618332] (-) TimerEvent: {}
+[3.678703] (my_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_msgs/srv/detail/reset_num__functions.c.o\x1b[0m\n'}
+[3.718476] (-) TimerEvent: {}
+[3.818994] (-) TimerEvent: {}
+[3.829155] (my_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.919116] (-) TimerEvent: {}
+[3.975061] (my_msgs) StdoutLine: {'line': b'[ 20%] Built target my_msgs__rosidl_generator_c\n'}
+[4.008665] (my_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.019229] (-) TimerEvent: {}
+[4.088078] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.119366] (-) TimerEvent: {}
+[4.133110] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.160372] (my_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgs/msg/detail/dds_fastrtps/string_and_num__type_support.cpp.o\x1b[0m\n'}
+[4.179196] (my_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgs/msg/detail/string_and_num__type_support.cpp.o\x1b[0m\n'}
+[4.180186] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.219488] (-) TimerEvent: {}
+[4.236932] (my_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgs/msg/string_and_num__type_support.cpp.o\x1b[0m\n'}
+[4.319593] (-) TimerEvent: {}
+[4.419938] (-) TimerEvent: {}
+[4.520332] (-) TimerEvent: {}
+[4.588579] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.618406] (my_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgs/msg/detail/string_and_num__type_support.c.o\x1b[0m\n'}
+[4.620697] (-) TimerEvent: {}
+[4.686049] (my_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_msgs/srv/detail/reset_num__type_support.c.o\x1b[0m\n'}
+[4.720805] (-) TimerEvent: {}
+[4.792089] (my_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libmy_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.820948] (-) TimerEvent: {}
+[4.880523] (my_msgs) StdoutLine: {'line': b'[ 38%] Built target my_msgs__rosidl_typesupport_introspection_c\n'}
+[4.897398] (my_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_msgs/srv/detail/reset_num__type_support.cpp.o\x1b[0m\n'}
+[4.921024] (-) TimerEvent: {}
+[5.021408] (-) TimerEvent: {}
+[5.121784] (-) TimerEvent: {}
+[5.222150] (-) TimerEvent: {}
+[5.322532] (-) TimerEvent: {}
+[5.423356] (-) TimerEvent: {}
+[5.523793] (-) TimerEvent: {}
+[5.624149] (-) TimerEvent: {}
+[5.724491] (-) TimerEvent: {}
+[5.824857] (-) TimerEvent: {}
+[5.925865] (-) TimerEvent: {}
+[6.026286] (-) TimerEvent: {}
+[6.127526] (-) TimerEvent: {}
+[6.230192] (-) TimerEvent: {}
+[6.292543] (my_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_msgs/srv/reset_num__type_support.cpp.o\x1b[0m\n'}
+[6.330470] (-) TimerEvent: {}
+[6.354446] (my_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.391689] (my_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.430575] (-) TimerEvent: {}
+[6.531232] (-) TimerEvent: {}
+[6.630849] (my_msgs) StdoutLine: {'line': b'[ 48%] Built target my_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.631502] (-) TimerEvent: {}
+[6.655055] (my_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_msgs/srv/detail/dds_fastrtps/reset_num__type_support.cpp.o\x1b[0m\n'}
+[6.731633] (-) TimerEvent: {}
+[6.832266] (-) TimerEvent: {}
+[6.932650] (-) TimerEvent: {}
+[6.956180] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[6.993365] (my_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgs/srv/reset_num__type_support.cpp.o\x1b[0m\n'}
+[6.993832] (my_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_msgs/msg/string_and_num__type_support.cpp.o\x1b[0m\n'}
+[7.032775] (-) TimerEvent: {}
+[7.083905] (my_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.111897] (my_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.132903] (-) TimerEvent: {}
+[7.173607] (my_msgs) StdoutLine: {'line': b'[ 61%] Built target my_msgs__rosidl_typesupport_c\n'}
+[7.200285] (my_msgs) StdoutLine: {'line': b'[ 61%] Built target my_msgs__rosidl_typesupport_cpp\n'}
+[7.233017] (-) TimerEvent: {}
+[7.333646] (-) TimerEvent: {}
+[7.434034] (-) TimerEvent: {}
+[7.534446] (-) TimerEvent: {}
+[7.634802] (-) TimerEvent: {}
+[7.669687] (my_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.734939] (-) TimerEvent: {}
+[7.796238] (my_msgs) StdoutLine: {'line': b'[ 64%] Built target my_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.810321] (my_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.835041] (-) TimerEvent: {}
+[7.935379] (-) TimerEvent: {}
+[8.035785] (-) TimerEvent: {}
+[8.136339] (-) TimerEvent: {}
+[8.218133] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.236468] (-) TimerEvent: {}
+[8.243021] (my_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgs/msg/detail/string_and_num__type_support_c.cpp.o\x1b[0m\n'}
+[8.243334] (my_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_msgs/srv/detail/reset_num__type_support_c.cpp.o\x1b[0m\n'}
+[8.336604] (-) TimerEvent: {}
+[8.437070] (-) TimerEvent: {}
+[8.537642] (-) TimerEvent: {}
+[8.638110] (-) TimerEvent: {}
+[8.738506] (-) TimerEvent: {}
+[8.839049] (-) TimerEvent: {}
+[8.849932] (my_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.939153] (-) TimerEvent: {}
+[8.979700] (my_msgs) StdoutLine: {'line': b'[ 74%] Built target my_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.997428] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs\x1b[0m\n'}
+[9.010823] (my_msgs) StdoutLine: {'line': b'[ 74%] Built target my_msgs\n'}
+[9.023636] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__py\x1b[0m\n'}
+[9.036340] (my_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.039262] (-) TimerEvent: {}
+[9.139633] (-) TimerEvent: {}
+[9.239952] (-) TimerEvent: {}
+[9.340254] (-) TimerEvent: {}
+[9.440596] (-) TimerEvent: {}
+[9.540977] (-) TimerEvent: {}
+[9.641312] (-) TimerEvent: {}
+[9.741715] (-) TimerEvent: {}
+[9.842077] (-) TimerEvent: {}
+[9.942487] (-) TimerEvent: {}
+[10.042848] (-) TimerEvent: {}
+[10.143202] (-) TimerEvent: {}
+[10.243598] (-) TimerEvent: {}
+[10.343961] (-) TimerEvent: {}
+[10.444281] (-) TimerEvent: {}
+[10.544647] (-) TimerEvent: {}
+[10.645052] (-) TimerEvent: {}
+[10.745411] (-) TimerEvent: {}
+[10.845770] (-) TimerEvent: {}
+[10.946109] (-) TimerEvent: {}
+[11.038448] (my_msgs) StdoutLine: {'line': b'[ 76%] Built target my_msgs__py\n'}
+[11.046248] (-) TimerEvent: {}
+[11.051407] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__python\x1b[0m\n'}
+[11.146382] (-) TimerEvent: {}
+[11.188319] (my_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_msgs__python.dir/rosidl_generator_py/my_msgs/msg/_string_and_num_s.c.o\x1b[0m\n'}
+[11.191821] (my_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_msgs__python.dir/rosidl_generator_py/my_msgs/srv/_reset_num_s.c.o\x1b[0m\n'}
+[11.246502] (-) TimerEvent: {}
+[11.346853] (-) TimerEvent: {}
+[11.447226] (-) TimerEvent: {}
+[11.547721] (-) TimerEvent: {}
+[11.599122] (my_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/libmy_msgs__python.so\x1b[0m\n'}
+[11.647856] (-) TimerEvent: {}
+[11.687934] (my_msgs) StdoutLine: {'line': b'[ 84%] Built target my_msgs__python\n'}
+[11.705864] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.714426] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[11.714759] (my_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.747971] (-) TimerEvent: {}
+[11.749495] (my_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.764106] (my_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.765517] (my_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_msgs/_my_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.848093] (-) TimerEvent: {}
+[11.948495] (-) TimerEvent: {}
+[11.957422] (my_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.020521] (my_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.021574] (my_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.037864] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_c__pyext\n'}
+[12.048682] (-) TimerEvent: {}
+[12.092693] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[12.134627] (my_msgs) StdoutLine: {'line': b'[100%] Built target my_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.148833] (-) TimerEvent: {}
+[12.149902] (my_msgs) CommandEnded: {'returncode': 0}
+[12.231915] (my_msgs) JobProgress: {'identifier': 'my_msgs', 'progress': 'install'}
+[12.247460] (my_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs'], 'cwd': '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmed'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '6211'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '5983'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b49a2d978316deca0e1f40f76091098d'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/home/ahmed/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('JOURNAL_STREAM', '8:165866'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ahmed-Computer:@/tmp/.ICE-unix/6244,unix/Ahmed-Computer:/tmp/.ICE-unix/6244'), ('INVOCATION_ID', '82418552f5384b03b5fb8a27a72f4252'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/903c56e7_eb16_4cae_ab55_5510954e334e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ahmed/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/build/my_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ahmed/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b49a2d978316deca0e1f40f76091098d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[12.250921] (-) TimerEvent: {}
+[12.267382] (my_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.267635] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/ament_index/resource_index/rosidl_interfaces/my_msgs\n'}
+[12.267747] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs\n'}
+[12.267845] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg\n'}
+[12.267933] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/string_and_num.h\n'}
+[12.268023] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail\n'}
+[12.268111] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__type_support.h\n'}
+[12.268202] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__functions.c\n'}
+[12.268292] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__functions.h\n'}
+[12.268375] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__struct.h\n'}
+[12.268553] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.268716] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv\n'}
+[12.268913] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/reset_num.h\n'}
+[12.269076] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail\n'}
+[12.269224] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__type_support.h\n'}
+[12.269335] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__struct.h\n'}
+[12.269440] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__functions.h\n'}
+[12.269579] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__functions.c\n'}
+[12.269681] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/library_path.sh\n'}
+[12.269784] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/library_path.dsv\n'}
+[12.269896] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so\n'}
+[12.270063] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_generator_c.so" to ""\n'}
+[12.270224] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs\n'}
+[12.270386] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg\n'}
+[12.270546] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.270753] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail\n'}
+[12.270855] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__rosidl_typesupport_fastrtps_c.h\n'}
+[12.271002] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv\n'}
+[12.271111] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail\n'}
+[12.271213] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__rosidl_typesupport_fastrtps_c.h\n'}
+[12.271334] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[12.271497] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.271664] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs\n'}
+[12.271899] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg\n'}
+[12.272168] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.272436] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail\n'}
+[12.272543] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/dds_fastrtps\n'}
+[12.272651] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.272787] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv\n'}
+[12.272888] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail\n'}
+[12.272988] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/dds_fastrtps\n'}
+[12.273088] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.273233] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.273411] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.273563] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs\n'}
+[12.273694] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg\n'}
+[12.273825] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.273976] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail\n'}
+[12.274109] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__type_support.c\n'}
+[12.274209] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__rosidl_typesupport_introspection_c.h\n'}
+[12.274339] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv\n'}
+[12.274440] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail\n'}
+[12.274539] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__rosidl_typesupport_introspection_c.h\n'}
+[12.274639] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__type_support.c\n'}
+[12.274773] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so\n'}
+[12.274913] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.275016] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so\n'}
+[12.275322] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_c.so" to ""\n'}
+[12.275491] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs\n'}
+[12.275624] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg\n'}
+[12.275978] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/string_and_num.hpp\n'}
+[12.276412] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail\n'}
+[12.276603] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__traits.hpp\n'}
+[12.276740] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__builder.hpp\n'}
+[12.276886] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__struct.hpp\n'}
+[12.277077] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv\n'}
+[12.277230] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/reset_num.hpp\n'}
+[12.277388] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail\n'}
+[12.277547] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__builder.hpp\n'}
+[12.277644] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__traits.hpp\n'}
+[12.277733] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__struct.hpp\n'}
+[12.277868] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs\n'}
+[12.277991] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg\n'}
+[12.278086] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail\n'}
+[12.278175] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.278274] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/msg/detail/string_and_num__type_support.cpp\n'}
+[12.278417] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv\n'}
+[12.278675] (my_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail\n'}
+[12.278880] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.279089] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/include/my_msgs/srv/detail/reset_num__type_support.cpp\n'}
+[12.279315] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[12.279542] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.279721] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so\n'}
+[12.279939] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[12.280109] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/pythonpath.sh\n'}
+[12.280259] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/pythonpath.dsv\n'}
+[12.280412] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/__init__.py\n'}
+[12.335108] (my_msgs) StdoutLine: {'line': b"Compiling '/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/__init__.py'...\n"}
+[12.343281] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg\n'}
+[12.343762] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/_string_and_num_s.c\n'}
+[12.344076] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/_string_and_num.py\n'}
+[12.344338] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/msg/__init__.py\n'}
+[12.344514] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/srv\n'}
+[12.344724] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/srv/_reset_num_s.c\n'}
+[12.344889] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/srv/__init__.py\n'}
+[12.345053] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/srv/_reset_num.py\n'}
+[12.345257] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.345432] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[12.345634] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.346750] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[12.346971] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[12.347144] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/python3.8/site-packages/my_msgs/my_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[12.347463] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__python.so\n'}
+[12.348044] (my_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/lib/libmy_msgs__python.so" to ""\n'}
+[12.348273] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/msg/StringAndNum.idl\n'}
+[12.348517] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/srv/ResetNum.idl\n'}
+[12.348738] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/msg/StringAndNum.msg\n'}
+[12.348974] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/srv/ResetNum.srv\n'}
+[12.349198] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/srv/ResetNum_Request.msg\n'}
+[12.349420] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/srv/ResetNum_Response.msg\n'}
+[12.349640] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/ament_index/resource_index/package_run_dependencies/my_msgs\n'}
+[12.349859] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/ament_index/resource_index/parent_prefix_path/my_msgs\n'}
+[12.350087] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/ament_prefix_path.sh\n'}
+[12.350257] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/ament_prefix_path.dsv\n'}
+[12.350497] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/path.sh\n'}
+[12.350759] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/environment/path.dsv\n'}
+[12.350972] (-) TimerEvent: {}
+[12.351135] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/local_setup.bash\n'}
+[12.351330] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/local_setup.sh\n'}
+[12.351563] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/local_setup.zsh\n'}
+[12.351777] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/local_setup.dsv\n'}
+[12.352027] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/package.dsv\n'}
+[12.352243] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/ament_index/resource_index/packages/my_msgs\n'}
+[12.352512] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cExport.cmake\n'}
+[12.352723] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.352956] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.353171] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.353405] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport.cmake\n'}
+[12.353626] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.353832] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_generator_cppExport.cmake\n'}
+[12.354043] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.354273] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.354480] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[12.354694] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.354911] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[12.355123] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.355287] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.355510] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.355715] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.355925] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.356124] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.356365] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgsConfig.cmake\n'}
+[12.356579] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/cmake/my_msgsConfig-version.cmake\n'}
+[12.356740] (my_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/install/my_msgs/share/my_msgs/package.xml\n'}
+[12.359437] (my_msgs) CommandEnded: {'returncode': 0}
+[12.451156] (-) TimerEvent: {}
+[12.518638] (my_msgs) JobEnded: {'identifier': 'my_msgs', 'rc': 0}
+[12.519652] (-) EventReactorShutdown: {}

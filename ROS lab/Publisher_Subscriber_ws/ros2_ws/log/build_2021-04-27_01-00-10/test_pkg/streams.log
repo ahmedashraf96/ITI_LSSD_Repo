@@ -1,0 +1,40 @@
+[0.294s] Invoking command in '/home/ahmed/Documents/ros2_ws/src/test_pkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/ahmed/Documents/ros2_ws/build/test_pkg/build install --prefix /home/ahmed/Documents/ros2_ws/install/test_pkg --record /home/ahmed/Documents/ros2_ws/build/test_pkg/install.log --single-version-externally-managed
+[0.522s] running egg_info
+[0.523s] creating ../../build/test_pkg/test_pkg.egg-info
+[0.523s] writing ../../build/test_pkg/test_pkg.egg-info/PKG-INFO
+[0.523s] writing dependency_links to ../../build/test_pkg/test_pkg.egg-info/dependency_links.txt
+[0.524s] writing entry points to ../../build/test_pkg/test_pkg.egg-info/entry_points.txt
+[0.524s] writing requirements to ../../build/test_pkg/test_pkg.egg-info/requires.txt
+[0.524s] writing top-level names to ../../build/test_pkg/test_pkg.egg-info/top_level.txt
+[0.525s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.558s] reading manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.559s] writing manifest file '../../build/test_pkg/test_pkg.egg-info/SOURCES.txt'
+[0.559s] running build
+[0.560s] running build_py
+[0.560s] creating /home/ahmed/Documents/ros2_ws/build/test_pkg/build
+[0.560s] creating /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib
+[0.560s] creating /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib/test_pkg
+[0.560s] copying test_pkg/first_node.py -> /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib/test_pkg
+[0.560s] copying test_pkg/__init__.py -> /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib/test_pkg
+[0.560s] copying test_pkg/second_node.py -> /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib/test_pkg
+[0.560s] running install
+[0.561s] running install_lib
+[0.562s] creating /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg
+[0.562s] copying /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib/test_pkg/first_node.py -> /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg
+[0.562s] copying /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib/test_pkg/__init__.py -> /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg
+[0.562s] copying /home/ahmed/Documents/ros2_ws/build/test_pkg/build/lib/test_pkg/second_node.py -> /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg
+[0.563s] byte-compiling /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg/first_node.py to first_node.cpython-38.pyc
+[0.565s] byte-compiling /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg/__init__.py to __init__.cpython-38.pyc
+[0.565s] byte-compiling /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg/second_node.py to second_node.cpython-38.pyc
+[0.565s] running install_data
+[0.566s] creating /home/ahmed/Documents/ros2_ws/install/test_pkg/share/ament_index
+[0.566s] creating /home/ahmed/Documents/ros2_ws/install/test_pkg/share/ament_index/resource_index
+[0.566s] creating /home/ahmed/Documents/ros2_ws/install/test_pkg/share/ament_index/resource_index/packages
+[0.591s] copying resource/test_pkg -> /home/ahmed/Documents/ros2_ws/install/test_pkg/share/ament_index/resource_index/packages
+[0.591s] copying package.xml -> /home/ahmed/Documents/ros2_ws/install/test_pkg/share/test_pkg
+[0.591s] running install_egg_info
+[0.593s] Copying ../../build/test_pkg/test_pkg.egg-info to /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages/test_pkg-0.0.0-py3.8.egg-info
+[0.594s] running install_scripts
+[0.615s] Installing publish_node=test_pkg.first_node:mainsubscribe_node script to /home/ahmed/Documents/ros2_ws/install/test_pkg/lib/test_pkg
+[0.616s] writing list of installed files to '/home/ahmed/Documents/ros2_ws/build/test_pkg/install.log'
+[0.655s] Invoked command in '/home/ahmed/Documents/ros2_ws/src/test_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ros2_ws/install/test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pkg build --build-base /home/ahmed/Documents/ros2_ws/build/test_pkg/build install --prefix /home/ahmed/Documents/ros2_ws/install/test_pkg --record /home/ahmed/Documents/ros2_ws/build/test_pkg/install.log --single-version-externally-managed

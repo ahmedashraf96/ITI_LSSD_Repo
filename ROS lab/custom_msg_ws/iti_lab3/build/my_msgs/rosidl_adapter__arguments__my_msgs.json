@@ -1,0 +1,7 @@
+{
+  "package_name": "my_msgs",
+  "non_idl_tuples": [
+    "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/src/my_msgs:msg/StringAndNum.msg",
+    "/home/ahmed/Documents/ITI_LSSD/ROS/custom_msg_ws/iti_lab3/src/my_msgs:srv/ResetNum.srv"
+  ]
+}

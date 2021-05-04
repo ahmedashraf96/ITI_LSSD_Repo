@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_msgs/srv/ResetNum.srv
+// generated code does not contain a copyright notice
+
+
+module my_msgs {
+  module srv {
+    struct ResetNum_Request {
+      boolean booldata;
+    };
+    struct ResetNum_Response {
+      string strdata;
+    };
+  };
+};

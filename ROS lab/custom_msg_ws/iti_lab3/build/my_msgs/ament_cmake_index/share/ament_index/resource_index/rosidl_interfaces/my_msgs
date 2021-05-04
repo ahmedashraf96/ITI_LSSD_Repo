@@ -1,0 +1,6 @@
+msg/StringAndNum.idl
+msg/StringAndNum.msg
+srv/ResetNum.idl
+srv/ResetNum.srv
+srv/ResetNum_Request.msg
+srv/ResetNum_Response.msg
