@@ -1,0 +1,21 @@
+[0.342s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/src/iti_lab4': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/install/iti_lab4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab4 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/build/iti_lab4/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/install/iti_lab4 --record /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/build/iti_lab4/install.log --single-version-externally-managed
+[0.594s] running egg_info
+[0.595s] writing ../../build/iti_lab4/iti_lab4.egg-info/PKG-INFO
+[0.595s] writing dependency_links to ../../build/iti_lab4/iti_lab4.egg-info/dependency_links.txt
+[0.595s] writing entry points to ../../build/iti_lab4/iti_lab4.egg-info/entry_points.txt
+[0.595s] writing requirements to ../../build/iti_lab4/iti_lab4.egg-info/requires.txt
+[0.595s] writing top-level names to ../../build/iti_lab4/iti_lab4.egg-info/top_level.txt
+[0.640s] reading manifest file '../../build/iti_lab4/iti_lab4.egg-info/SOURCES.txt'
+[0.644s] writing manifest file '../../build/iti_lab4/iti_lab4.egg-info/SOURCES.txt'
+[0.644s] running build
+[0.645s] running build_py
+[0.645s] running install
+[0.645s] running install_lib
+[0.647s] running install_data
+[0.648s] copying launch/carkyo_static_tf_launch.py -> /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/install/iti_lab4/share/iti_lab4/launch
+[0.683s] running install_egg_info
+[0.685s] removing '/home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/install/iti_lab4/lib/python3.8/site-packages/iti_lab4-0.0.0-py3.8.egg-info' (and everything under it)
+[0.686s] Copying ../../build/iti_lab4/iti_lab4.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/install/iti_lab4/lib/python3.8/site-packages/iti_lab4-0.0.0-py3.8.egg-info
+[0.687s] running install_scripts
+[0.711s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/build/iti_lab4/install.log'
+[0.740s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/src/iti_lab4' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/install/iti_lab4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab4 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/build/iti_lab4/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/install/iti_lab4 --record /home/ahmed/Documents/ITI_LSSD/ROS/TF2_Static_publisher/iti_lab4/build/iti_lab4/install.log --single-version-externally-managed
