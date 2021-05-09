@@ -1,0 +1,284 @@
+[0.020s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/src/turtle_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs
+[0.105s] -- The C compiler identification is GNU 9.3.0
+[0.192s] -- The CXX compiler identification is GNU 9.3.0
+[0.200s] -- Check for working C compiler: /usr/bin/cc
+[0.302s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.302s] -- Detecting C compiler ABI info
+[0.392s] -- Detecting C compiler ABI info - done
+[0.407s] -- Detecting C compile features
+[0.408s] -- Detecting C compile features - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.526s] -- Detecting CXX compiler ABI info
+[0.618s] -- Detecting CXX compiler ABI info - done
+[0.636s] -- Detecting CXX compile features
+[0.637s] -- Detecting CXX compile features - done
+[0.642s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.673s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.673s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.899s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.914s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.020s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.053s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.140s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.207s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.402s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.585s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.588s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.623s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[1.623s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.623s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.623s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.648s] -- Found PythonExtra: .so  
+[1.701s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.723s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.725s] -- Added test 'lint_cmake' to check CMake code style
+[1.727s] -- Added test 'xmllint' to check XML markup files
+[1.736s] -- Configuring done
+[1.820s] -- Generating done
+[1.827s] -- Build files have been written to: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs
+[1.851s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/src/turtle_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs
+[1.852s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs -- -j4 -l4
+[1.913s] [35m[1mScanning dependencies of target turtle_custom_msgs__cpp[0m
+[1.917s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.932s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.777s] [  4%] Built target turtle_custom_msgs__cpp
+[2.823s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.838s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.943s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.965s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_generator_c[0m
+[3.052s] [ 12%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtle_custom_msgs/msg/detail/turtle_counter__functions.c.o[0m
+[3.259s] [ 14%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtle_custom_msgs/msg/detail/turtle_status__functions.c.o[0m
+[3.576s] [ 17%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtle_custom_msgs/srv/detail/turtle_service__functions.c.o[0m
+[3.751s] [ 19%] [32m[1mLinking C shared library libturtle_custom_msgs__rosidl_generator_c.so[0m
+[3.858s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_cpp[0m
+[3.887s] [ 21%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_custom_msgs/msg/turtle_counter__type_support.cpp.o[0m
+[3.977s] [ 21%] Built target turtle_custom_msgs__rosidl_generator_c
+[4.025s] [ 23%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_custom_msgs/msg/turtle_status__type_support.cpp.o[0m
+[4.237s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.304s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_counter__type_support.cpp.o[0m
+[4.409s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.760s] [ 27%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_custom_msgs/msg/detail/dds_fastrtps/turtle_counter__type_support.cpp.o[0m
+[4.808s] [ 29%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_custom_msgs/msg/detail/dds_fastrtps/turtle_status__type_support.cpp.o[0m
+[5.006s] [ 31%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_custom_msgs/srv/turtle_service__type_support.cpp.o[0m
+[5.099s] [ 34%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_status__type_support.cpp.o[0m
+[5.628s] [ 36%] [32m[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_cpp.so[0m
+[5.717s] [ 38%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/srv/detail/turtle_service__type_support.cpp.o[0m
+[5.752s] [ 38%] Built target turtle_custom_msgs__rosidl_typesupport_cpp
+[5.771s] [ 42%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.779s] [ 42%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_custom_msgs/srv/detail/dds_fastrtps/turtle_service__type_support.cpp.o[0m
+[5.864s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.495s] [ 46%] [32m[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.677s] [ 46%] Built target turtle_custom_msgs__rosidl_typesupport_introspection_cpp
+[6.685s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_c[0m
+[6.717s] [ 48%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_custom_msgs/msg/turtle_counter__type_support.cpp.o[0m
+[6.745s] [ 51%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_custom_msgs/msg/turtle_status__type_support.cpp.o[0m
+[6.752s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_introspection_c[0m
+[6.790s] [ 53%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_custom_msgs/msg/detail/turtle_counter__type_support.c.o[0m
+[6.812s] [ 55%] [32m[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.841s] [ 57%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_custom_msgs/srv/turtle_service__type_support.cpp.o[0m
+[6.843s] [ 59%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_custom_msgs/msg/detail/turtle_status__type_support.c.o[0m
+[6.917s] [ 61%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_custom_msgs/srv/detail/turtle_service__type_support.c.o[0m
+[6.968s] [ 63%] [32m[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_c.so[0m
+[7.001s] [ 65%] [32m[1mLinking C shared library libturtle_custom_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.019s] [ 65%] Built target turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp
+[7.039s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.078s] [ 68%] Built target turtle_custom_msgs__rosidl_typesupport_introspection_c
+[7.087s] [ 68%] Built target turtle_custom_msgs__rosidl_typesupport_c
+[7.534s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_fastrtps_c[0m
+[7.566s] [ 70%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_custom_msgs/msg/detail/turtle_counter__type_support_c.cpp.o[0m
+[7.567s] [ 72%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_custom_msgs/msg/detail/turtle_status__type_support_c.cpp.o[0m
+[7.568s] [ 74%] [32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_custom_msgs/srv/detail/turtle_service__type_support_c.cpp.o[0m
+[8.293s] [ 76%] [32m[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.411s] [ 76%] Built target turtle_custom_msgs__rosidl_typesupport_fastrtps_c
+[8.423s] [35m[1mScanning dependencies of target turtle_custom_msgs[0m
+[8.435s] [ 76%] Built target turtle_custom_msgs
+[8.447s] [35m[1mScanning dependencies of target turtle_custom_msgs__py[0m
+[8.460s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.296s] [ 78%] Built target turtle_custom_msgs__py
+[9.310s] [35m[1mScanning dependencies of target turtle_custom_msgs__python[0m
+[9.356s] [ 80%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__python.dir/rosidl_generator_py/turtle_custom_msgs/msg/_turtle_counter_s.c.o[0m
+[9.364s] [ 82%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__python.dir/rosidl_generator_py/turtle_custom_msgs/srv/_turtle_service_s.c.o[0m
+[9.381s] [ 85%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__python.dir/rosidl_generator_py/turtle_custom_msgs/msg/_turtle_status_s.c.o[0m
+[9.581s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtle_custom_msgs/libturtle_custom_msgs__python.so[0m
+[9.632s] [ 87%] Built target turtle_custom_msgs__python
+[9.648s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[9.649s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.650s] [35m[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_c__pyext[0m
+[9.692s] [ 91%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_custom_msgs/_turtle_custom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.692s] [ 93%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_custom_msgs/_turtle_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.693s] [ 91%] [32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_custom_msgs/_turtle_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.905s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.921s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.973s] [ 97%] Built target turtle_custom_msgs__rosidl_typesupport_c__pyext
+[9.986s] [ 97%] Built target turtle_custom_msgs__rosidl_typesupport_introspection_c__pyext
+[10.003s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[10.085s] [100%] Built target turtle_custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.111s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs -- -j4 -l4
+[10.205s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs
+[10.217s] -- Install configuration: ""
+[10.218s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/turtle_custom_msgs
+[10.218s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs
+[10.218s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg
+[10.218s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_counter.h
+[10.219s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail
+[10.219s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__functions.h
+[10.219s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__functions.h
+[10.220s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__struct.h
+[10.220s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__functions.c
+[10.220s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__type_support.h
+[10.220s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__functions.c
+[10.220s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__struct.h
+[10.221s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__type_support.h
+[10.221s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.221s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_status.h
+[10.221s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv
+[10.221s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/turtle_service.h
+[10.222s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail
+[10.222s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__functions.h
+[10.222s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__type_support.h
+[10.222s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__struct.h
+[10.222s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__functions.c
+[10.223s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/library_path.sh
+[10.223s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/library_path.dsv
+[10.223s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_generator_c.so
+[10.224s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_generator_c.so" to ""
+[10.224s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs
+[10.224s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg
+[10.224s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.225s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail
+[10.225s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_fastrtps_c.h
+[10.225s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_fastrtps_c.h
+[10.225s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv
+[10.226s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail
+[10.226s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_fastrtps_c.h
+[10.226s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_c.so
+[10.228s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.228s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs
+[10.228s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg
+[10.228s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.229s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail
+[10.229s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/dds_fastrtps
+[10.229s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_fastrtps_cpp.hpp
+[10.229s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_fastrtps_cpp.hpp
+[10.230s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv
+[10.230s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail
+[10.230s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/dds_fastrtps
+[10.230s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_fastrtps_cpp.hpp
+[10.231s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.232s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.232s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs
+[10.232s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg
+[10.232s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.233s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail
+[10.233s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__type_support.c
+[10.233s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__type_support.c
+[10.233s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h
+[10.237s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_introspection_c.h
+[10.237s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv
+[10.237s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail
+[10.238s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_introspection_c.h
+[10.238s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__type_support.c
+[10.238s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_c.so
+[10.238s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.238s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_c.so
+[10.238s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_c.so" to ""
+[10.239s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs
+[10.239s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg
+[10.239s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_counter.hpp
+[10.239s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail
+[10.239s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__struct.hpp
+[10.239s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__builder.hpp
+[10.239s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__struct.hpp
+[10.239s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__traits.hpp
+[10.239s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__builder.hpp
+[10.240s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__traits.hpp
+[10.240s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_status.hpp
+[10.240s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv
+[10.240s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/turtle_service.hpp
+[10.240s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail
+[10.240s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__traits.hpp
+[10.240s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__struct.hpp
+[10.240s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__builder.hpp
+[10.240s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs
+[10.241s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg
+[10.241s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail
+[10.241s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__type_support.cpp
+[10.241s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__type_support.cpp
+[10.241s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_introspection_cpp.hpp
+[10.241s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_introspection_cpp.hpp
+[10.241s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv
+[10.241s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail
+[10.242s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_introspection_cpp.hpp
+[10.242s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__type_support.cpp
+[10.242s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.so
+[10.242s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.242s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_cpp.so
+[10.242s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_cpp.so" to ""
+[10.242s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/pythonpath.sh
+[10.242s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/pythonpath.dsv
+[10.242s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/__init__.py
+[10.289s] Compiling '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/__init__.py'...
+[10.297s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg
+[10.298s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_counter_s.c
+[10.298s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_status.py
+[10.298s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_status_s.c
+[10.298s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/__init__.py
+[10.299s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_counter.py
+[10.299s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv
+[10.299s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv/_turtle_service_s.c
+[10.299s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv/__init__.py
+[10.299s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv/_turtle_service.py
+[10.300s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[10.300s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.300s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[10.300s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.300s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[10.301s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[10.301s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__python.so
+[10.302s] -- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__python.so" to ""
+[10.304s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleCounter.idl
+[10.304s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleStatus.idl
+[10.304s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService.idl
+[10.305s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleCounter.msg
+[10.305s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleStatus.msg
+[10.305s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService.srv
+[10.305s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService_Request.msg
+[10.305s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService_Response.msg
+[10.306s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/package_run_dependencies/turtle_custom_msgs
+[10.306s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/parent_prefix_path/turtle_custom_msgs
+[10.306s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/ament_prefix_path.sh
+[10.311s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/ament_prefix_path.dsv
+[10.312s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/path.sh
+[10.319s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/path.dsv
+[10.336s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.bash
+[10.336s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.sh
+[10.336s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.zsh
+[10.336s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.dsv
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/package.dsv
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/packages/turtle_custom_msgs
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_generator_cExport.cmake
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cExport.cmake
+[10.337s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_generator_cppExport.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cppExport.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/rosidl_cmake-extras.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.338s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.339s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgsConfig.cmake
+[10.339s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgsConfig-version.cmake
+[10.339s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/package.xml
+[10.339s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs

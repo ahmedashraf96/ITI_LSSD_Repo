@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_counter__type_support.cpp.o"
+  "CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_status__type_support.cpp.o"
+  "CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/srv/detail/turtle_service__type_support.cpp.o"
+  "libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.pdb"
+  "libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_counter__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_status__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/turtle_custom_msgs/srv/detail/turtle_service__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

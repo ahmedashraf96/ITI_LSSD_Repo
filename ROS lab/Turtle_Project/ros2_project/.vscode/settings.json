@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/ahmed/anaconda3/bin/python3",
+    "python.autoComplete.extraPaths": ["~/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs"]
+}

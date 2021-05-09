@@ -1,0 +1,43 @@
+[0.309s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/src/ros2_project': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project --record /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/install.log --single-version-externally-managed
+[0.577s] running egg_info
+[0.578s] creating ../../build/ros2_project/ros2_project.egg-info
+[0.578s] writing ../../build/ros2_project/ros2_project.egg-info/PKG-INFO
+[0.579s] writing dependency_links to ../../build/ros2_project/ros2_project.egg-info/dependency_links.txt
+[0.579s] writing entry points to ../../build/ros2_project/ros2_project.egg-info/entry_points.txt
+[0.579s] writing requirements to ../../build/ros2_project/ros2_project.egg-info/requires.txt
+[0.579s] writing top-level names to ../../build/ros2_project/ros2_project.egg-info/top_level.txt
+[0.582s] writing manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.630s] reading manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.631s] writing manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.631s] running build
+[0.632s] running build_py
+[0.632s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build
+[0.632s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib
+[0.632s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project
+[0.633s] copying ros2_project/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project
+[0.633s] copying ros2_project/spawn_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project
+[0.633s] copying ros2_project/control_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project
+[0.633s] running install
+[0.634s] running install_lib
+[0.635s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.636s] copying /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.636s] copying /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project/spawn_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.636s] copying /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project/control_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.637s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project/__init__.py to __init__.cpython-38.pyc
+[0.639s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project/spawn_node.py to spawn_node.cpython-38.pyc
+[0.640s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project/control_node.py to control_node.cpython-38.pyc
+[0.642s] running install_data
+[0.643s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/share/ament_index
+[0.643s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/share/ament_index/resource_index
+[0.643s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/share/ament_index/resource_index/packages
+[0.643s] copying resource/ros2_project -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/share/ament_index/resource_index/packages
+[0.643s] copying package.xml -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/share/ros2_project
+[0.644s] creating /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/share/ros2_project/launch
+[0.644s] copying launch/ros2_project_launch.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/share/ros2_project/launch
+[0.644s] running install_egg_info
+[0.646s] Copying ../../build/ros2_project/ros2_project.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project-0.0.0-py3.8.egg-info
+[0.647s] running install_scripts
+[0.672s] Installing turtle_control script to /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/ros2_project
+[0.672s] Installing turtle_spawn script to /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/ros2_project
+[0.672s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/install.log'
+[0.704s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/src/ros2_project' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project --record /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/install.log --single-version-externally-managed

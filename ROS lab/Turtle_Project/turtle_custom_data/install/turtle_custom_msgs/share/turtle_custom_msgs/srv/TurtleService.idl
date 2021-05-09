@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_custom_msgs/srv/TurtleService.srv
+// generated code does not contain a copyright notice
+
+
+module turtle_custom_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "This file contains service related to requested turtle to be spawned")
+    struct TurtleService_Request {
+      boolean status;
+    };
+    struct TurtleService_Response {
+      string name;
+    };
+  };
+};

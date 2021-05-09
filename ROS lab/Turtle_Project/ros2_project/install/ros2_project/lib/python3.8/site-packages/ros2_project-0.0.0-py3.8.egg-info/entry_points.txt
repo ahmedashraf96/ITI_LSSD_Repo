@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_control = ros2_project.control_node:main
+turtle_spawn = ros2_project.spawn_node:main
+

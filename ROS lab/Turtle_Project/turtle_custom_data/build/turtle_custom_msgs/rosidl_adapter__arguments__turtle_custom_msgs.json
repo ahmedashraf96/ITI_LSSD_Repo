@@ -1,0 +1,8 @@
+{
+  "package_name": "turtle_custom_msgs",
+  "non_idl_tuples": [
+    "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/src/turtle_custom_msgs:msg/TurtleCounter.msg",
+    "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/src/turtle_custom_msgs:msg/TurtleStatus.msg",
+    "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/src/turtle_custom_msgs:srv/TurtleService.srv"
+  ]
+}

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_custom_msgs/msg/TurtleCounter.msg
+// generated code does not contain a copyright notice
+
+
+module turtle_custom_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Turtle application counter custom message")
+    struct TurtleCounter {
+      uint64 counter;
+    };
+  };
+};

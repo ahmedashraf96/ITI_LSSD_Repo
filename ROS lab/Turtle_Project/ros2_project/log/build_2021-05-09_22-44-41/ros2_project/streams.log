@@ -1,0 +1,25 @@
+[0.359s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/src/ros2_project': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project --record /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/install.log --single-version-externally-managed
+[0.611s] running egg_info
+[0.612s] writing ../../build/ros2_project/ros2_project.egg-info/PKG-INFO
+[0.612s] writing dependency_links to ../../build/ros2_project/ros2_project.egg-info/dependency_links.txt
+[0.612s] writing entry points to ../../build/ros2_project/ros2_project.egg-info/entry_points.txt
+[0.613s] writing requirements to ../../build/ros2_project/ros2_project.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/ros2_project/ros2_project.egg-info/top_level.txt
+[0.654s] reading manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.665s] writing manifest file '../../build/ros2_project/ros2_project.egg-info/SOURCES.txt'
+[0.665s] running build
+[0.666s] running build_py
+[0.666s] copying ros2_project/control_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project
+[0.666s] running install
+[0.667s] running install_lib
+[0.669s] copying /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build/lib/ros2_project/control_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project
+[0.669s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project/control_node.py to control_node.cpython-38.pyc
+[0.672s] running install_data
+[0.672s] running install_egg_info
+[0.674s] removing '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project-0.0.0-py3.8.egg-info' (and everything under it)
+[0.675s] Copying ../../build/ros2_project/ros2_project.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages/ros2_project-0.0.0-py3.8.egg-info
+[0.676s] running install_scripts
+[0.695s] Installing turtle_control script to /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/ros2_project
+[0.695s] Installing turtle_spawn script to /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/ros2_project
+[0.695s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/install.log'
+[0.735s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/src/ros2_project' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_project build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/install/ros2_project --record /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/ros2_project/build/ros2_project/install.log --single-version-externally-managed

@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (turtle_custom_msgs) JobQueued: {'identifier': 'turtle_custom_msgs', 'dependencies': OrderedDict()}
+[0.000850] (turtle_custom_msgs) JobStarted: {'identifier': 'turtle_custom_msgs'}
+[0.014924] (turtle_custom_msgs) JobProgress: {'identifier': 'turtle_custom_msgs', 'progress': 'cmake'}
+[0.015679] (turtle_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/src/turtle_custom_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs'], 'cwd': '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmed'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1787'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1508'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e324e11b4568bc682b93c3360981eb3'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/home/ahmed/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('JOURNAL_STREAM', '8:39158'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ahmed-Computer:@/tmp/.ICE-unix/1835,unix/Ahmed-Computer:/tmp/.ICE-unix/1835'), ('INVOCATION_ID', 'b60dad4832984943800024d2ab703651'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce4033_5b3b_49fd_b63c_5f6335a5ba9c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ahmed/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ahmed/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e324e11b4568bc682b93c3360981eb3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099646] (-) TimerEvent: {}
+[0.105360] (turtle_custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.192460] (turtle_custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.199826] (-) TimerEvent: {}
+[0.201164] (turtle_custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299966] (-) TimerEvent: {}
+[0.302157] (turtle_custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.302670] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.393122] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400064] (-) TimerEvent: {}
+[0.408226] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.408912] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.414235] (turtle_custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500201] (-) TimerEvent: {}
+[0.525895] (turtle_custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.526623] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600368] (-) TimerEvent: {}
+[0.619102] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.636862] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.637741] (turtle_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.642723] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.671611] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.673906] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700497] (-) TimerEvent: {}
+[0.800855] (-) TimerEvent: {}
+[0.899549] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.900939] (-) TimerEvent: {}
+[0.904463] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.915215] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.001070] (-) TimerEvent: {}
+[1.021139] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.053308] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.101197] (-) TimerEvent: {}
+[1.140660] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201316] (-) TimerEvent: {}
+[1.208059] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.302022] (-) TimerEvent: {}
+[1.402406] (-) TimerEvent: {}
+[1.402880] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.502520] (-) TimerEvent: {}
+[1.537593] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.548253] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.585881] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.588801] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.602619] (-) TimerEvent: {}
+[1.623260] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.623751] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.624000] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.624197] (turtle_custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.649140] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.701729] (turtle_custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.702704] (-) TimerEvent: {}
+[1.723367] (turtle_custom_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.726293] (turtle_custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.728212] (turtle_custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.737244] (turtle_custom_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.802846] (-) TimerEvent: {}
+[1.821080] (turtle_custom_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.827598] (turtle_custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs\n'}
+[1.850779] (turtle_custom_msgs) CommandEnded: {'returncode': 0}
+[1.852632] (turtle_custom_msgs) JobProgress: {'identifier': 'turtle_custom_msgs', 'progress': 'build'}
+[1.852743] (turtle_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmed'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1787'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1508'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e324e11b4568bc682b93c3360981eb3'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/home/ahmed/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('JOURNAL_STREAM', '8:39158'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ahmed-Computer:@/tmp/.ICE-unix/1835,unix/Ahmed-Computer:/tmp/.ICE-unix/1835'), ('INVOCATION_ID', 'b60dad4832984943800024d2ab703651'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce4033_5b3b_49fd_b63c_5f6335a5ba9c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ahmed/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ahmed/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e324e11b4568bc682b93c3360981eb3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.903040] (-) TimerEvent: {}
+[1.913431] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__cpp\x1b[0m\n'}
+[1.917331] (turtle_custom_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.932756] (turtle_custom_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.003125] (-) TimerEvent: {}
+[2.103699] (-) TimerEvent: {}
+[2.204072] (-) TimerEvent: {}
+[2.305493] (-) TimerEvent: {}
+[2.405902] (-) TimerEvent: {}
+[2.506288] (-) TimerEvent: {}
+[2.606676] (-) TimerEvent: {}
+[2.707057] (-) TimerEvent: {}
+[2.778189] (turtle_custom_msgs) StdoutLine: {'line': b'[  4%] Built target turtle_custom_msgs__cpp\n'}
+[2.807712] (-) TimerEvent: {}
+[2.823539] (turtle_custom_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.839234] (turtle_custom_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.907883] (-) TimerEvent: {}
+[2.943715] (turtle_custom_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.965817] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.007997] (-) TimerEvent: {}
+[3.053033] (turtle_custom_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtle_custom_msgs/msg/detail/turtle_counter__functions.c.o\x1b[0m\n'}
+[3.108113] (-) TimerEvent: {}
+[3.208534] (-) TimerEvent: {}
+[3.254328] (turtle_custom_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtle_custom_msgs/msg/detail/turtle_status__functions.c.o\x1b[0m\n'}
+[3.308664] (-) TimerEvent: {}
+[3.409081] (-) TimerEvent: {}
+[3.509500] (-) TimerEvent: {}
+[3.576604] (turtle_custom_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtle_custom_msgs/srv/detail/turtle_service__functions.c.o\x1b[0m\n'}
+[3.612329] (-) TimerEvent: {}
+[3.712725] (-) TimerEvent: {}
+[3.752234] (turtle_custom_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libturtle_custom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.812831] (-) TimerEvent: {}
+[3.859252] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.887437] (turtle_custom_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_custom_msgs/msg/turtle_counter__type_support.cpp.o\x1b[0m\n'}
+[3.912943] (-) TimerEvent: {}
+[3.977797] (turtle_custom_msgs) StdoutLine: {'line': b'[ 21%] Built target turtle_custom_msgs__rosidl_generator_c\n'}
+[4.013052] (-) TimerEvent: {}
+[4.025439] (turtle_custom_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_custom_msgs/msg/turtle_status__type_support.cpp.o\x1b[0m\n'}
+[4.113733] (-) TimerEvent: {}
+[4.214215] (-) TimerEvent: {}
+[4.237839] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.305265] (turtle_custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_counter__type_support.cpp.o\x1b[0m\n'}
+[4.314838] (-) TimerEvent: {}
+[4.409698] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.420018] (-) TimerEvent: {}
+[4.520419] (-) TimerEvent: {}
+[4.622789] (-) TimerEvent: {}
+[4.731991] (-) TimerEvent: {}
+[4.758985] (turtle_custom_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_custom_msgs/msg/detail/dds_fastrtps/turtle_counter__type_support.cpp.o\x1b[0m\n'}
+[4.800561] (turtle_custom_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_custom_msgs/msg/detail/dds_fastrtps/turtle_status__type_support.cpp.o\x1b[0m\n'}
+[4.832123] (-) TimerEvent: {}
+[4.932737] (-) TimerEvent: {}
+[5.006015] (turtle_custom_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_custom_msgs/srv/turtle_service__type_support.cpp.o\x1b[0m\n'}
+[5.032870] (-) TimerEvent: {}
+[5.099451] (turtle_custom_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/msg/detail/turtle_status__type_support.cpp.o\x1b[0m\n'}
+[5.133009] (-) TimerEvent: {}
+[5.233668] (-) TimerEvent: {}
+[5.334078] (-) TimerEvent: {}
+[5.434654] (-) TimerEvent: {}
+[5.535301] (-) TimerEvent: {}
+[5.628908] (turtle_custom_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.636216] (-) TimerEvent: {}
+[5.717314] (turtle_custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_custom_msgs/srv/detail/turtle_service__type_support.cpp.o\x1b[0m\n'}
+[5.736342] (-) TimerEvent: {}
+[5.749380] (turtle_custom_msgs) StdoutLine: {'line': b'[ 38%] Built target turtle_custom_msgs__rosidl_typesupport_cpp\n'}
+[5.772203] (turtle_custom_msgs) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.780289] (turtle_custom_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_custom_msgs/srv/detail/dds_fastrtps/turtle_service__type_support.cpp.o\x1b[0m\n'}
+[5.836477] (-) TimerEvent: {}
+[5.864692] (turtle_custom_msgs) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.936576] (-) TimerEvent: {}
+[6.037151] (-) TimerEvent: {}
+[6.137572] (-) TimerEvent: {}
+[6.239820] (-) TimerEvent: {}
+[6.342141] (-) TimerEvent: {}
+[6.457712] (-) TimerEvent: {}
+[6.495612] (turtle_custom_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.557817] (-) TimerEvent: {}
+[6.660020] (-) TimerEvent: {}
+[6.677374] (turtle_custom_msgs) StdoutLine: {'line': b'[ 46%] Built target turtle_custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.685212] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[6.717193] (turtle_custom_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_custom_msgs/msg/turtle_counter__type_support.cpp.o\x1b[0m\n'}
+[6.745321] (turtle_custom_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_custom_msgs/msg/turtle_status__type_support.cpp.o\x1b[0m\n'}
+[6.752861] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.760155] (-) TimerEvent: {}
+[6.790968] (turtle_custom_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_custom_msgs/msg/detail/turtle_counter__type_support.c.o\x1b[0m\n'}
+[6.812275] (turtle_custom_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.841390] (turtle_custom_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_custom_msgs/srv/turtle_service__type_support.cpp.o\x1b[0m\n'}
+[6.843380] (turtle_custom_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_custom_msgs/msg/detail/turtle_status__type_support.c.o\x1b[0m\n'}
+[6.860281] (-) TimerEvent: {}
+[6.917036] (turtle_custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_custom_msgs/srv/detail/turtle_service__type_support.c.o\x1b[0m\n'}
+[6.960432] (-) TimerEvent: {}
+[6.968289] (turtle_custom_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.002168] (turtle_custom_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libturtle_custom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.020210] (turtle_custom_msgs) StdoutLine: {'line': b'[ 65%] Built target turtle_custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.039616] (turtle_custom_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.060528] (-) TimerEvent: {}
+[7.078551] (turtle_custom_msgs) StdoutLine: {'line': b'[ 68%] Built target turtle_custom_msgs__rosidl_typesupport_introspection_c\n'}
+[7.088061] (turtle_custom_msgs) StdoutLine: {'line': b'[ 68%] Built target turtle_custom_msgs__rosidl_typesupport_c\n'}
+[7.160652] (-) TimerEvent: {}
+[7.261372] (-) TimerEvent: {}
+[7.361967] (-) TimerEvent: {}
+[7.462386] (-) TimerEvent: {}
+[7.534918] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.562530] (-) TimerEvent: {}
+[7.566778] (turtle_custom_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_custom_msgs/msg/detail/turtle_counter__type_support_c.cpp.o\x1b[0m\n'}
+[7.567969] (turtle_custom_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_custom_msgs/msg/detail/turtle_status__type_support_c.cpp.o\x1b[0m\n'}
+[7.568633] (turtle_custom_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_custom_msgs/srv/detail/turtle_service__type_support_c.cpp.o\x1b[0m\n'}
+[7.662631] (-) TimerEvent: {}
+[7.763081] (-) TimerEvent: {}
+[7.863868] (-) TimerEvent: {}
+[7.966417] (-) TimerEvent: {}
+[8.068805] (-) TimerEvent: {}
+[8.171458] (-) TimerEvent: {}
+[8.271847] (-) TimerEvent: {}
+[8.293332] (turtle_custom_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_custom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.371983] (-) TimerEvent: {}
+[8.411610] (turtle_custom_msgs) StdoutLine: {'line': b'[ 76%] Built target turtle_custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[8.424182] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs\x1b[0m\n'}
+[8.436121] (turtle_custom_msgs) StdoutLine: {'line': b'[ 76%] Built target turtle_custom_msgs\n'}
+[8.448093] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__py\x1b[0m\n'}
+[8.460626] (turtle_custom_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.472080] (-) TimerEvent: {}
+[8.572481] (-) TimerEvent: {}
+[8.672827] (-) TimerEvent: {}
+[8.773224] (-) TimerEvent: {}
+[8.873574] (-) TimerEvent: {}
+[8.973928] (-) TimerEvent: {}
+[9.074307] (-) TimerEvent: {}
+[9.174666] (-) TimerEvent: {}
+[9.275031] (-) TimerEvent: {}
+[9.296952] (turtle_custom_msgs) StdoutLine: {'line': b'[ 78%] Built target turtle_custom_msgs__py\n'}
+[9.310874] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__python\x1b[0m\n'}
+[9.356266] (turtle_custom_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__python.dir/rosidl_generator_py/turtle_custom_msgs/msg/_turtle_counter_s.c.o\x1b[0m\n'}
+[9.364645] (turtle_custom_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__python.dir/rosidl_generator_py/turtle_custom_msgs/srv/_turtle_service_s.c.o\x1b[0m\n'}
+[9.377095] (turtle_custom_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__python.dir/rosidl_generator_py/turtle_custom_msgs/msg/_turtle_status_s.c.o\x1b[0m\n'}
+[9.381674] (-) TimerEvent: {}
+[9.489696] (-) TimerEvent: {}
+[9.581579] (turtle_custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_custom_msgs/libturtle_custom_msgs__python.so\x1b[0m\n'}
+[9.589785] (-) TimerEvent: {}
+[9.633033] (turtle_custom_msgs) StdoutLine: {'line': b'[ 87%] Built target turtle_custom_msgs__python\n'}
+[9.649191] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.650151] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.650418] (turtle_custom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_custom_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.689915] (-) TimerEvent: {}
+[9.692809] (turtle_custom_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_custom_msgs/_turtle_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.693245] (turtle_custom_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_custom_msgs/_turtle_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.693548] (turtle_custom_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtle_custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_custom_msgs/_turtle_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.790039] (-) TimerEvent: {}
+[9.890458] (-) TimerEvent: {}
+[9.905744] (turtle_custom_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.922117] (turtle_custom_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.974178] (turtle_custom_msgs) StdoutLine: {'line': b'[ 97%] Built target turtle_custom_msgs__rosidl_typesupport_c__pyext\n'}
+[9.986965] (turtle_custom_msgs) StdoutLine: {'line': b'[ 97%] Built target turtle_custom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.990695] (-) TimerEvent: {}
+[10.003561] (turtle_custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.086021] (turtle_custom_msgs) StdoutLine: {'line': b'[100%] Built target turtle_custom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.090805] (-) TimerEvent: {}
+[10.108156] (turtle_custom_msgs) CommandEnded: {'returncode': 0}
+[10.189935] (turtle_custom_msgs) JobProgress: {'identifier': 'turtle_custom_msgs', 'progress': 'install'}
+[10.191490] (-) TimerEvent: {}
+[10.204568] (turtle_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs'], 'cwd': '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ahmed'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1787'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ahmed'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1508'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e324e11b4568bc682b93c3360981eb3'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_colcon_cd_root', '/home/ahmed/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ahmed'), ('JOURNAL_STREAM', '8:39158'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ahmed/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Ahmed-Computer:@/tmp/.ICE-unix/1835,unix/Ahmed-Computer:/tmp/.ICE-unix/1835'), ('INVOCATION_ID', 'b60dad4832984943800024d2ab703651'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ce4033_5b3b_49fd_b63c_5f6335a5ba9c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/ahmed/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/build/turtle_custom_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ahmed/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7e324e11b4568bc682b93c3360981eb3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.217433] (turtle_custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.218559] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/turtle_custom_msgs\n'}
+[10.218829] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs\n'}
+[10.219054] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg\n'}
+[10.219265] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_counter.h\n'}
+[10.219490] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail\n'}
+[10.219679] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__functions.h\n'}
+[10.220276] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__functions.h\n'}
+[10.220504] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__struct.h\n'}
+[10.220712] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__functions.c\n'}
+[10.220900] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__type_support.h\n'}
+[10.221084] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__functions.c\n'}
+[10.221258] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__struct.h\n'}
+[10.221437] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__type_support.h\n'}
+[10.221642] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.221837] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_status.h\n'}
+[10.222014] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv\n'}
+[10.222326] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/turtle_service.h\n'}
+[10.222519] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail\n'}
+[10.222722] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__functions.h\n'}
+[10.222908] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__type_support.h\n'}
+[10.223080] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__struct.h\n'}
+[10.223265] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__functions.c\n'}
+[10.223443] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/library_path.sh\n'}
+[10.223611] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/library_path.dsv\n'}
+[10.223779] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_generator_c.so\n'}
+[10.224690] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_generator_c.so" to ""\n'}
+[10.224959] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs\n'}
+[10.225163] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg\n'}
+[10.225352] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.225560] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail\n'}
+[10.225885] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_fastrtps_c.h\n'}
+[10.226069] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_fastrtps_c.h\n'}
+[10.226246] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv\n'}
+[10.226430] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail\n'}
+[10.226604] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_fastrtps_c.h\n'}
+[10.226780] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.227588] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.228841] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs\n'}
+[10.229151] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg\n'}
+[10.229395] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.229588] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail\n'}
+[10.229843] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/dds_fastrtps\n'}
+[10.230032] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.230240] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.230460] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv\n'}
+[10.230732] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail\n'}
+[10.230920] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/dds_fastrtps\n'}
+[10.231123] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.232089] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.232462] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.232814] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs\n'}
+[10.233041] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg\n'}
+[10.233296] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.233538] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail\n'}
+[10.233768] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__type_support.c\n'}
+[10.233985] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__type_support.c\n'}
+[10.234256] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h\n'}
+[10.234479] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_introspection_c.h\n'}
+[10.238047] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv\n'}
+[10.238340] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail\n'}
+[10.238547] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_introspection_c.h\n'}
+[10.238726] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__type_support.c\n'}
+[10.238896] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.239078] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.239220] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_c.so\n'}
+[10.239367] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[10.239531] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs\n'}
+[10.239647] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg\n'}
+[10.239755] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_counter.hpp\n'}
+[10.239870] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail\n'}
+[10.239976] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__struct.hpp\n'}
+[10.240093] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__builder.hpp\n'}
+[10.240200] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__struct.hpp\n'}
+[10.240306] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__traits.hpp\n'}
+[10.240436] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__builder.hpp\n'}
+[10.240545] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__traits.hpp\n'}
+[10.240651] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/turtle_status.hpp\n'}
+[10.240772] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv\n'}
+[10.240881] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/turtle_service.hpp\n'}
+[10.240987] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail\n'}
+[10.241091] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__traits.hpp\n'}
+[10.241202] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__struct.hpp\n'}
+[10.241307] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__builder.hpp\n'}
+[10.241412] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs\n'}
+[10.241518] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg\n'}
+[10.241710] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail\n'}
+[10.241829] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__type_support.cpp\n'}
+[10.241942] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__type_support.cpp\n'}
+[10.242048] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.242158] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/msg/detail/turtle_counter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.242264] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv\n'}
+[10.242369] (turtle_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail\n'}
+[10.242474] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.242579] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/include/turtle_custom_msgs/srv/detail/turtle_service__type_support.cpp\n'}
+[10.242686] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.242791] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.242895] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_cpp.so\n'}
+[10.242999] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[10.243103] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/pythonpath.sh\n'}
+[10.243226] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/pythonpath.dsv\n'}
+[10.243373] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/__init__.py\n'}
+[10.289855] (turtle_custom_msgs) StdoutLine: {'line': b"Compiling '/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/__init__.py'...\n"}
+[10.291562] (-) TimerEvent: {}
+[10.298147] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg\n'}
+[10.298620] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_counter_s.c\n'}
+[10.299003] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_status.py\n'}
+[10.299171] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_status_s.c\n'}
+[10.299330] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/__init__.py\n'}
+[10.299505] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/msg/_turtle_counter.py\n'}
+[10.299676] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv\n'}
+[10.299905] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv/_turtle_service_s.c\n'}
+[10.300056] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv/__init__.py\n'}
+[10.300317] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/srv/_turtle_service.py\n'}
+[10.300486] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.300647] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.300829] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.301017] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.301251] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[10.301474] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/python3.8/site-packages/turtle_custom_msgs/turtle_custom_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[10.301688] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__python.so\n'}
+[10.302461] (turtle_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/lib/libturtle_custom_msgs__python.so" to ""\n'}
+[10.304803] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleCounter.idl\n'}
+[10.305114] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleStatus.idl\n'}
+[10.305361] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService.idl\n'}
+[10.305575] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleCounter.msg\n'}
+[10.305792] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/msg/TurtleStatus.msg\n'}
+[10.305965] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService.srv\n'}
+[10.306136] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService_Request.msg\n'}
+[10.306317] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/srv/TurtleService_Response.msg\n'}
+[10.306496] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/package_run_dependencies/turtle_custom_msgs\n'}
+[10.306673] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/parent_prefix_path/turtle_custom_msgs\n'}
+[10.306848] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/ament_prefix_path.sh\n'}
+[10.312186] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/ament_prefix_path.dsv\n'}
+[10.312526] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/path.sh\n'}
+[10.319427] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/environment/path.dsv\n'}
+[10.319720] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.bash\n'}
+[10.336986] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.sh\n'}
+[10.337244] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.zsh\n'}
+[10.337393] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/local_setup.dsv\n'}
+[10.337534] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/package.dsv\n'}
+[10.337735] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/ament_index/resource_index/packages/turtle_custom_msgs\n'}
+[10.337861] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[10.337972] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.338079] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.338200] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.338301] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[10.338404] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.338507] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[10.338593] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.338678] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.338762] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.338846] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.338930] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.339013] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.339096] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.339190] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.339292] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.339382] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.339467] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.339560] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgsConfig.cmake\n'}
+[10.339697] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/cmake/turtle_custom_msgsConfig-version.cmake\n'}
+[10.339850] (turtle_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/Turtle_Project/turtle_custom_data/install/turtle_custom_msgs/share/turtle_custom_msgs/package.xml\n'}
+[10.339950] (turtle_custom_msgs) CommandEnded: {'returncode': 0}
+[10.391846] (-) TimerEvent: {}
+[10.492366] (-) TimerEvent: {}
+[10.496562] (turtle_custom_msgs) JobEnded: {'identifier': 'turtle_custom_msgs', 'rc': 0}
+[10.498146] (-) EventReactorShutdown: {}
