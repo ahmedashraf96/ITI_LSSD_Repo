@@ -1,0 +1,3 @@
+[console_scripts]
+bagFile_listener1 = iti_lab7_task1.bag_file_sub:main
+

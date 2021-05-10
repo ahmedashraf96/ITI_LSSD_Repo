@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/iti_lab7_task4/iti_lab7_task4.egg-info/PKG-INFO
+../../build/iti_lab7_task4/iti_lab7_task4.egg-info/SOURCES.txt
+../../build/iti_lab7_task4/iti_lab7_task4.egg-info/dependency_links.txt
+../../build/iti_lab7_task4/iti_lab7_task4.egg-info/entry_points.txt
+../../build/iti_lab7_task4/iti_lab7_task4.egg-info/requires.txt
+../../build/iti_lab7_task4/iti_lab7_task4.egg-info/top_level.txt
+../../build/iti_lab7_task4/iti_lab7_task4.egg-info/zip-safe
+iti_lab7_task4/__init__.py
+iti_lab7_task4/turtleReset.py
+resource/iti_lab7_task4
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

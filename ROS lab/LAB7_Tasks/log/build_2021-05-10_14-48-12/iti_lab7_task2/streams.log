@@ -1,0 +1,37 @@
+[0.366s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/src/iti_lab7_task2': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab7_task2 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/install.log --single-version-externally-managed
+[0.657s] running egg_info
+[0.657s] creating ../../build/iti_lab7_task2/iti_lab7_task2.egg-info
+[0.658s] writing ../../build/iti_lab7_task2/iti_lab7_task2.egg-info/PKG-INFO
+[0.658s] writing dependency_links to ../../build/iti_lab7_task2/iti_lab7_task2.egg-info/dependency_links.txt
+[0.658s] writing entry points to ../../build/iti_lab7_task2/iti_lab7_task2.egg-info/entry_points.txt
+[0.659s] writing requirements to ../../build/iti_lab7_task2/iti_lab7_task2.egg-info/requires.txt
+[0.659s] writing top-level names to ../../build/iti_lab7_task2/iti_lab7_task2.egg-info/top_level.txt
+[0.661s] writing manifest file '../../build/iti_lab7_task2/iti_lab7_task2.egg-info/SOURCES.txt'
+[0.696s] reading manifest file '../../build/iti_lab7_task2/iti_lab7_task2.egg-info/SOURCES.txt'
+[0.698s] writing manifest file '../../build/iti_lab7_task2/iti_lab7_task2.egg-info/SOURCES.txt'
+[0.698s] running build
+[0.698s] running build_py
+[0.699s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build
+[0.699s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build/lib
+[0.699s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build/lib/iti_lab7_task2
+[0.699s] copying iti_lab7_task2/bag_file_sub.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build/lib/iti_lab7_task2
+[0.700s] copying iti_lab7_task2/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build/lib/iti_lab7_task2
+[0.700s] running install
+[0.701s] running install_lib
+[0.703s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages/iti_lab7_task2
+[0.703s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build/lib/iti_lab7_task2/bag_file_sub.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages/iti_lab7_task2
+[0.703s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build/lib/iti_lab7_task2/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages/iti_lab7_task2
+[0.703s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages/iti_lab7_task2/bag_file_sub.py to bag_file_sub.cpython-38.pyc
+[0.705s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages/iti_lab7_task2/__init__.py to __init__.cpython-38.pyc
+[0.705s] running install_data
+[0.706s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/share/ament_index
+[0.707s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/share/ament_index/resource_index
+[0.707s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/share/ament_index/resource_index/packages
+[0.707s] copying resource/iti_lab7_task2 -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/share/ament_index/resource_index/packages
+[0.707s] copying package.xml -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/share/iti_lab7_task2
+[0.707s] running install_egg_info
+[0.709s] Copying ../../build/iti_lab7_task2/iti_lab7_task2.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages/iti_lab7_task2-0.0.0-py3.8.egg-info
+[0.723s] running install_scripts
+[0.743s] Installing bagFile_listener2 script to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/iti_lab7_task2
+[0.745s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/install.log'
+[0.796s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/src/iti_lab7_task2' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab7_task2 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task2/install.log --single-version-externally-managed

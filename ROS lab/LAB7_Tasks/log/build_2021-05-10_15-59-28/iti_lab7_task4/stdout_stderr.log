@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/PKG-INFO
+writing dependency_links to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/dependency_links.txt
+writing entry points to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/entry_points.txt
+writing requirements to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/requires.txt
+writing top-level names to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/top_level.txt
+reading manifest file '../../build/iti_lab7_task4/iti_lab7_task4.egg-info/SOURCES.txt'
+writing manifest file '../../build/iti_lab7_task4/iti_lab7_task4.egg-info/SOURCES.txt'
+running build
+running build_py
+copying iti_lab7_task4/turtleReset.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/build/lib/iti_lab7_task4
+running install
+running install_lib
+copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/build/lib/iti_lab7_task4/turtleReset.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4
+byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4/turtleReset.py to turtleReset.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/iti_lab7_task4/iti_lab7_task4.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/install.log'

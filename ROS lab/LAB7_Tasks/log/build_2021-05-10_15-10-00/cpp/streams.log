@@ -1,0 +1,24 @@
+[0.065s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task1:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp -- -j4 -l4
+[0.211s] [ 50%] Built target listener
+[0.217s] [100%] Built target talker
+[0.229s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task1:/opt/ros/foxy /usr/bin/cmake --build /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp -- -j4 -l4
+[0.282s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task1:/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp
+[0.294s] -- Install configuration: ""
+[0.297s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/lib/cpp/listener
+[0.297s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/lib/cpp/talker
+[0.297s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/ament_index/resource_index/package_run_dependencies/cpp
+[0.297s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/ament_index/resource_index/parent_prefix_path/cpp
+[0.297s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/environment/ament_prefix_path.sh
+[0.298s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/environment/ament_prefix_path.dsv
+[0.298s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/environment/path.sh
+[0.298s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/environment/path.dsv
+[0.300s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/local_setup.bash
+[0.300s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/local_setup.sh
+[0.302s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/local_setup.zsh
+[0.302s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/local_setup.dsv
+[0.302s] -- Installing: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/package.dsv
+[0.303s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/ament_index/resource_index/packages/cpp
+[0.303s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/cmake/cppConfig.cmake
+[0.303s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/cmake/cppConfig-version.cmake
+[0.303s] -- Up-to-date: /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/cpp/share/cpp/package.xml
+[0.303s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task2:/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task1:/opt/ros/foxy /usr/bin/cmake --install /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp

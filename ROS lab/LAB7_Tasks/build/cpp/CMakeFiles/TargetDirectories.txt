@@ -1,0 +1,11 @@
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/install/strip.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/install/local.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/edit_cache.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/test.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/install.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/list_install_components.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/rebuild_cache.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/listener.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/talker.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/cpp_uninstall.dir
+/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/cpp/CMakeFiles/uninstall.dir

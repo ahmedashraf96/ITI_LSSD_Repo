@@ -1,0 +1,23 @@
+[0.371s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/src/iti_lab7_task4': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab7_task4 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/install.log --single-version-externally-managed
+[0.644s] running egg_info
+[0.645s] writing ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/PKG-INFO
+[0.645s] writing dependency_links to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/dependency_links.txt
+[0.645s] writing entry points to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/requires.txt
+[0.646s] writing top-level names to ../../build/iti_lab7_task4/iti_lab7_task4.egg-info/top_level.txt
+[0.684s] reading manifest file '../../build/iti_lab7_task4/iti_lab7_task4.egg-info/SOURCES.txt'
+[0.692s] writing manifest file '../../build/iti_lab7_task4/iti_lab7_task4.egg-info/SOURCES.txt'
+[0.692s] running build
+[0.692s] running build_py
+[0.693s] copying iti_lab7_task4/turtleReset.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/build/lib/iti_lab7_task4
+[0.694s] running install
+[0.694s] running install_lib
+[0.696s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/build/lib/iti_lab7_task4/turtleReset.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4
+[0.697s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4/turtleReset.py to turtleReset.cpython-38.pyc
+[0.700s] running install_data
+[0.701s] running install_egg_info
+[0.704s] removing '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4-0.0.0-py3.8.egg-info' (and everything under it)
+[0.705s] Copying ../../build/iti_lab7_task4/iti_lab7_task4.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages/iti_lab7_task4-0.0.0-py3.8.egg-info
+[0.708s] running install_scripts
+[0.743s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/install.log'
+[0.788s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/src/iti_lab7_task4' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab7_task4 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/install/iti_lab7_task4 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB7_Tasks/build/iti_lab7_task4/install.log --single-version-externally-managed
