@@ -1,0 +1,26 @@
+[0.338s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/src/iti_lab_8': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab_8 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/install.log --single-version-externally-managed
+[0.652s] running egg_info
+[0.655s] writing ../../build/iti_lab_8/iti_lab_8.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../../build/iti_lab_8/iti_lab_8.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../../build/iti_lab_8/iti_lab_8.egg-info/entry_points.txt
+[0.655s] writing requirements to ../../build/iti_lab_8/iti_lab_8.egg-info/requires.txt
+[0.656s] writing top-level names to ../../build/iti_lab_8/iti_lab_8.egg-info/top_level.txt
+[0.696s] reading manifest file '../../build/iti_lab_8/iti_lab_8.egg-info/SOURCES.txt'
+[0.706s] writing manifest file '../../build/iti_lab_8/iti_lab_8.egg-info/SOURCES.txt'
+[0.706s] running build
+[0.706s] running build_py
+[0.707s] copying iti_lab_8/sub_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/build/lib/iti_lab_8
+[0.707s] copying iti_lab_8/pub_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/build/lib/iti_lab_8
+[0.708s] running install
+[0.709s] running install_lib
+[0.711s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/build/lib/iti_lab_8/sub_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages/iti_lab_8
+[0.711s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/build/lib/iti_lab_8/pub_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages/iti_lab_8
+[0.712s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages/iti_lab_8/sub_node.py to sub_node.cpython-38.pyc
+[0.715s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages/iti_lab_8/pub_node.py to pub_node.cpython-38.pyc
+[0.716s] running install_data
+[0.721s] running install_egg_info
+[0.721s] removing '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages/iti_lab_8-0.0.0-py3.8.egg-info' (and everything under it)
+[0.722s] Copying ../../build/iti_lab_8/iti_lab_8.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages/iti_lab_8-0.0.0-py3.8.egg-info
+[0.722s] running install_scripts
+[0.754s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/install.log'
+[0.799s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/src/iti_lab_8' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab_8 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/install/iti_lab_8 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB8_Task/build/iti_lab_8/install.log --single-version-externally-managed
