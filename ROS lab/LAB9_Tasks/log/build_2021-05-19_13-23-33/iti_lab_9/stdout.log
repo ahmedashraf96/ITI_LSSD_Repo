@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/iti_lab_9/iti_lab_9.egg-info
+writing ../../build/iti_lab_9/iti_lab_9.egg-info/PKG-INFO
+writing dependency_links to ../../build/iti_lab_9/iti_lab_9.egg-info/dependency_links.txt
+writing entry points to ../../build/iti_lab_9/iti_lab_9.egg-info/entry_points.txt
+writing requirements to ../../build/iti_lab_9/iti_lab_9.egg-info/requires.txt
+writing top-level names to ../../build/iti_lab_9/iti_lab_9.egg-info/top_level.txt
+writing manifest file '../../build/iti_lab_9/iti_lab_9.egg-info/SOURCES.txt'
+reading manifest file '../../build/iti_lab_9/iti_lab_9.egg-info/SOURCES.txt'
+writing manifest file '../../build/iti_lab_9/iti_lab_9.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9
+copying iti_lab_9/turtleControl_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9
+copying iti_lab_9/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9
+running install
+running install_lib
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9
+copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9/turtleControl_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9
+copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9
+byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9/turtleControl_node.py to turtleControl_node.cpython-38.pyc
+byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index/resource_index
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index/resource_index/packages
+copying resource/iti_lab_9 -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index/resource_index/packages
+copying package.xml -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/iti_lab_9
+running install_egg_info
+Copying ../../build/iti_lab_9/iti_lab_9.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/install.log'

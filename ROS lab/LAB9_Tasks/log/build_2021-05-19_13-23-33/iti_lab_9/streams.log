@@ -1,0 +1,36 @@
+[0.421s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/src/iti_lab_9': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab_9 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/install.log --single-version-externally-managed
+[1.084s] running egg_info
+[1.085s] creating ../../build/iti_lab_9/iti_lab_9.egg-info
+[1.085s] writing ../../build/iti_lab_9/iti_lab_9.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../build/iti_lab_9/iti_lab_9.egg-info/dependency_links.txt
+[1.086s] writing entry points to ../../build/iti_lab_9/iti_lab_9.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../build/iti_lab_9/iti_lab_9.egg-info/requires.txt
+[1.086s] writing top-level names to ../../build/iti_lab_9/iti_lab_9.egg-info/top_level.txt
+[1.158s] writing manifest file '../../build/iti_lab_9/iti_lab_9.egg-info/SOURCES.txt'
+[1.391s] reading manifest file '../../build/iti_lab_9/iti_lab_9.egg-info/SOURCES.txt'
+[1.392s] writing manifest file '../../build/iti_lab_9/iti_lab_9.egg-info/SOURCES.txt'
+[1.392s] running build
+[1.392s] running build_py
+[1.392s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build
+[1.393s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib
+[1.393s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9
+[1.393s] copying iti_lab_9/turtleControl_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9
+[1.393s] copying iti_lab_9/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9
+[1.393s] running install
+[1.416s] running install_lib
+[1.433s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9
+[1.434s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9/turtleControl_node.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9
+[1.434s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build/lib/iti_lab_9/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9
+[1.434s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9/turtleControl_node.py to turtleControl_node.cpython-38.pyc
+[1.436s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9/__init__.py to __init__.cpython-38.pyc
+[1.436s] running install_data
+[1.459s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index
+[1.462s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index/resource_index
+[1.462s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index/resource_index/packages
+[1.463s] copying resource/iti_lab_9 -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/ament_index/resource_index/packages
+[1.463s] copying package.xml -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/share/iti_lab_9
+[1.463s] running install_egg_info
+[1.474s] Copying ../../build/iti_lab_9/iti_lab_9.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages/iti_lab_9-0.0.0-py3.8.egg-info
+[1.476s] running install_scripts
+[1.550s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/install.log'
+[1.593s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/src/iti_lab_9' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_lab_9 build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/install/iti_lab_9 --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/LAB9_Tasks/build/iti_lab_9/install.log --single-version-externally-managed
