@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/imu_subNode/imu_subNode.egg-info
+writing ../../build/imu_subNode/imu_subNode.egg-info/PKG-INFO
+writing dependency_links to ../../build/imu_subNode/imu_subNode.egg-info/dependency_links.txt
+writing entry points to ../../build/imu_subNode/imu_subNode.egg-info/entry_points.txt
+writing requirements to ../../build/imu_subNode/imu_subNode.egg-info/requires.txt
+writing top-level names to ../../build/imu_subNode/imu_subNode.egg-info/top_level.txt
+writing manifest file '../../build/imu_subNode/imu_subNode.egg-info/SOURCES.txt'
+reading manifest file '../../build/imu_subNode/imu_subNode.egg-info/SOURCES.txt'
+writing manifest file '../../build/imu_subNode/imu_subNode.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_subNode/build
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_subNode/build/lib
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_subNode/build/lib/imu_subNode
+copying imu_subNode/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_subNode/build/lib/imu_subNode
+running install
+running install_lib
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/lib/python3.8/site-packages/imu_subNode
+copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_subNode/build/lib/imu_subNode/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/lib/python3.8/site-packages/imu_subNode
+byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/lib/python3.8/site-packages/imu_subNode/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/share/ament_index
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/share/ament_index/resource_index
+creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/share/ament_index/resource_index/packages
+copying resource/imu_subNode -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/share/ament_index/resource_index/packages
+copying package.xml -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/share/imu_subNode
+running install_egg_info
+Copying ../../build/imu_subNode/imu_subNode.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_subNode/lib/python3.8/site-packages/imu_subNode-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_subNode/install.log'
