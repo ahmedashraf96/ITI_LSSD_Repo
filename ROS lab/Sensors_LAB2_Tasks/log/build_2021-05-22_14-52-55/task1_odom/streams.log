@@ -1,0 +1,33 @@
+[0.287s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/src/task1_odom': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_odom build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/install.log --single-version-externally-managed
+[0.585s] running egg_info
+[0.586s] creating ../../build/task1_odom/task1_odom.egg-info
+[0.586s] writing ../../build/task1_odom/task1_odom.egg-info/PKG-INFO
+[0.586s] writing dependency_links to ../../build/task1_odom/task1_odom.egg-info/dependency_links.txt
+[0.587s] writing entry points to ../../build/task1_odom/task1_odom.egg-info/entry_points.txt
+[0.587s] writing requirements to ../../build/task1_odom/task1_odom.egg-info/requires.txt
+[0.587s] writing top-level names to ../../build/task1_odom/task1_odom.egg-info/top_level.txt
+[0.589s] writing manifest file '../../build/task1_odom/task1_odom.egg-info/SOURCES.txt'
+[0.634s] reading manifest file '../../build/task1_odom/task1_odom.egg-info/SOURCES.txt'
+[0.636s] writing manifest file '../../build/task1_odom/task1_odom.egg-info/SOURCES.txt'
+[0.636s] running build
+[0.636s] running build_py
+[0.636s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/build
+[0.637s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/build/lib
+[0.637s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/build/lib/task1_odom
+[0.637s] copying task1_odom/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/build/lib/task1_odom
+[0.637s] running install
+[0.639s] running install_lib
+[0.640s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/lib/python3.8/site-packages/task1_odom
+[0.640s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/build/lib/task1_odom/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/lib/python3.8/site-packages/task1_odom
+[0.641s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/lib/python3.8/site-packages/task1_odom/__init__.py to __init__.cpython-38.pyc
+[0.643s] running install_data
+[0.644s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/share/ament_index
+[0.645s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/share/ament_index/resource_index
+[0.645s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/share/ament_index/resource_index/packages
+[0.645s] copying resource/task1_odom -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/share/ament_index/resource_index/packages
+[0.645s] copying package.xml -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/share/task1_odom
+[0.645s] running install_egg_info
+[0.648s] Copying ../../build/task1_odom/task1_odom.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/lib/python3.8/site-packages/task1_odom-0.0.0-py3.8.egg-info
+[0.649s] running install_scripts
+[0.673s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/install.log'
+[0.713s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/src/task1_odom' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/task1_odom build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/install/task1_odom --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB2_Tasks/build/task1_odom/install.log --single-version-externally-managed
