@@ -9,6 +9,7 @@ setup.py
 ../../build/imu_subNode/imu_subNode.egg-info/top_level.txt
 ../../build/imu_subNode/imu_subNode.egg-info/zip-safe
 imu_subNode/__init__.py
+imu_subNode/imu_subscriber.py
 resource/imu_subNode
 test/test_copyright.py
 test/test_flake8.py

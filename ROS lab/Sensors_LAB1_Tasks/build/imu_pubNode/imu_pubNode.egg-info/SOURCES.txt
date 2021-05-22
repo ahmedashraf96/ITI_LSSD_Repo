@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/imu_pubNode/imu_pubNode.egg-info/PKG-INFO
+../../build/imu_pubNode/imu_pubNode.egg-info/SOURCES.txt
+../../build/imu_pubNode/imu_pubNode.egg-info/dependency_links.txt
+../../build/imu_pubNode/imu_pubNode.egg-info/entry_points.txt
+../../build/imu_pubNode/imu_pubNode.egg-info/requires.txt
+../../build/imu_pubNode/imu_pubNode.egg-info/top_level.txt
+../../build/imu_pubNode/imu_pubNode.egg-info/zip-safe
+imu_pubNode/__init__.py
+resource/imu_pubNode
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

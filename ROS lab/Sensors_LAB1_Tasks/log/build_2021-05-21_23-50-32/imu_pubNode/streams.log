@@ -1,0 +1,33 @@
+[0.302s] Invoking command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/src/imu_pubNode': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_pubNode build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/install.log --single-version-externally-managed
+[0.570s] running egg_info
+[0.572s] creating ../../build/imu_pubNode/imu_pubNode.egg-info
+[0.572s] writing ../../build/imu_pubNode/imu_pubNode.egg-info/PKG-INFO
+[0.572s] writing dependency_links to ../../build/imu_pubNode/imu_pubNode.egg-info/dependency_links.txt
+[0.572s] writing entry points to ../../build/imu_pubNode/imu_pubNode.egg-info/entry_points.txt
+[0.572s] writing requirements to ../../build/imu_pubNode/imu_pubNode.egg-info/requires.txt
+[0.572s] writing top-level names to ../../build/imu_pubNode/imu_pubNode.egg-info/top_level.txt
+[0.574s] writing manifest file '../../build/imu_pubNode/imu_pubNode.egg-info/SOURCES.txt'
+[0.613s] reading manifest file '../../build/imu_pubNode/imu_pubNode.egg-info/SOURCES.txt'
+[0.614s] writing manifest file '../../build/imu_pubNode/imu_pubNode.egg-info/SOURCES.txt'
+[0.614s] running build
+[0.615s] running build_py
+[0.615s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/build
+[0.615s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/build/lib
+[0.615s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/build/lib/imu_pubNode
+[0.615s] copying imu_pubNode/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/build/lib/imu_pubNode
+[0.615s] running install
+[0.617s] running install_lib
+[0.618s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/lib/python3.8/site-packages/imu_pubNode
+[0.618s] copying /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/build/lib/imu_pubNode/__init__.py -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/lib/python3.8/site-packages/imu_pubNode
+[0.619s] byte-compiling /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/lib/python3.8/site-packages/imu_pubNode/__init__.py to __init__.cpython-38.pyc
+[0.620s] running install_data
+[0.621s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/share/ament_index
+[0.622s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/share/ament_index/resource_index
+[0.623s] creating /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/share/ament_index/resource_index/packages
+[0.623s] copying resource/imu_pubNode -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/share/ament_index/resource_index/packages
+[0.623s] copying package.xml -> /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/share/imu_pubNode
+[0.623s] running install_egg_info
+[0.624s] Copying ../../build/imu_pubNode/imu_pubNode.egg-info to /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/lib/python3.8/site-packages/imu_pubNode-0.0.0-py3.8.egg-info
+[0.625s] running install_scripts
+[0.649s] writing list of installed files to '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/install.log'
+[0.680s] Invoked command in '/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/src/imu_pubNode' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/imu_pubNode build --build-base /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/build install --prefix /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/install/imu_pubNode --record /home/ahmed/Documents/ITI_LSSD/ROS/ROS_WS/Sensors_LAB1_Tasks/build/imu_pubNode/install.log --single-version-externally-managed
