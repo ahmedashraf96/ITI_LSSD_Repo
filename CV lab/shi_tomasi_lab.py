@@ -10,9 +10,6 @@ from cv_bridge import CvBridge as cv_bridge
 import cv2 as cv
 import numpy as np
 
-#Importing time library
-import time
-
 #Subscribtion node class
 class sub_node(Node):
     
